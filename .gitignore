@@ -1,0 +1,8 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+openclaw-aws/terraform.tfvars
+*.pem
+*.key
+.env

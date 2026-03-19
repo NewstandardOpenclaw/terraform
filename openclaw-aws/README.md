@@ -47,3 +47,8 @@ terraform plan
 - CloudWatchアラーム
 - SSM Session Manager（SSHレス運用）
 - EventBridgeで起動/停止スケジュール
+
+## セキュリティ注意（公開repo）
+- `terraform.tfvars` はコミットしない
+- `.tfstate` はコミットしない
+- 実ID（instance/vpc/subnet/sg）は公開資料に直書きしない
