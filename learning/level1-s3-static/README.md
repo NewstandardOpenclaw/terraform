@@ -18,10 +18,13 @@ terraform plan
 terraform apply
 ```
 
-## 削除
+## 削除（推奨手順）
 ```bash
-terraform destroy
+terraform plan -destroy
+terraform destroy -auto-approve
 ```
+
+詳細: `CLEANUP_RUNBOOK_JA.md` を参照
 
 ## 注意
 - `terraform.tfvars` はコミットしない
